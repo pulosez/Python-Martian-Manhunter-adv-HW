@@ -29,3 +29,7 @@ class TestEmployee(unittest.TestCase):
         response = self.test_data.monthly_schedule('May')
         print(response)
         self.assertEqual(response, 'Bad Response!')
+        
+        
+if __name__ == '__main__':
+    unittest.main()
